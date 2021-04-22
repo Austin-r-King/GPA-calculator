@@ -8,16 +8,16 @@ namespace GPAcalc
         public static void Main(string[] args)
         {
 
-            Console.WriteLine("To connect your file, find your file location in your file manager.");
-            Console.WriteLine("Right click the file and click on properties.");
-            Console.WriteLine("Then triple click parent folder, or file location");
-            Console.WriteLine("Next right click again and click copy.");
-            Console.WriteLine("Now open this tab back up and press shift + ctrl + v");
-            Console.WriteLine("Then open back up the file and right click it.");
-            Console.WriteLine("Click on properties again, and then right click and select copy the name.");
-            Console.WriteLine("Open this tab again, and click the forward slash / ");
-            Console.WriteLine("and then press shift + ctrl + v.");
-            Console.WriteLine("Finally press enter.");
+            Console.WriteLine("-To connect your file, find your file location in your file manager.");
+            Console.WriteLine("-Right click the file and click on properties.");
+            Console.WriteLine("-Then triple click parent folder, or file location");
+            Console.WriteLine("-Next right click again and click copy.");
+            Console.WriteLine("-Now open this tab back up and press shift + ctrl + v");
+            Console.WriteLine("-Then open back up the file and right click it.");
+            Console.WriteLine("-Click on properties again, and then right click and select copy the name.");
+            Console.WriteLine("-Open this tab again, and click the forward slash / ");
+            Console.WriteLine("-and then press shift + ctrl + v.");
+            Console.WriteLine("-Finally press enter.");
             string UserInput = Console.ReadLine();
             string file = File.ReadAllText(UserInput);
             string[] gardes = file.Split( '\n' );
